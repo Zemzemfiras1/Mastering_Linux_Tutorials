@@ -57,12 +57,13 @@
 **Congratulations for your first tutorial.**
  * By the end of this tutorial you'll have an organisation looks to this one:
 
-letsPractice
+```bash
+letsPractice/
 ├── Dir1
 │   ├── file2.txt
 │   └── my_testFile
 ├── Dir2
 ├── Dir3
 └── Dir4
-
+```
 
