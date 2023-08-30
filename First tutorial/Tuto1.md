@@ -1,4 +1,4 @@
-<p style="text-align: center;">Directories and file creation</p>
+<p style="align="center">Directories and file creation</p>
 
 
 
