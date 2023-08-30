@@ -1,3 +1,7 @@
+<p style="text-align: center;">Directories and file creation</p>
+
+
+
 1. Open your terminal by typing ctrl+Alt+t
 2. Lets create a directory in which our tutorial will held. 
 
