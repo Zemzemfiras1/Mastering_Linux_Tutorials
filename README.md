@@ -5,6 +5,6 @@
 #### - Basic commands :
   - One of the most widely-used tools all user needs is the "Terminal" which is a text-base application. this software installed by default in all linux OS provides flexibility and rapidity for users as it prsents a command-line interface (CLI).
   
-    * [Tuto1](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/First%20tutorial/Tuto1.md)
+    * [Tuto1: Directories and file creation](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/First%20tutorial/Tuto1.md)
   - Hint : the more you practive the more cleverness you got.
     
