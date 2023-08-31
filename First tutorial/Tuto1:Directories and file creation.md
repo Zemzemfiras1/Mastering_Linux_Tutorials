@@ -4,7 +4,7 @@
 
 
 1. Open your terminal by typing ctrl+Alt+t
-2. Lets create a directory in which our tutorial will held. 
+2. Lets create a directory in which our tutorial will be held. 
 
         mkdir letsPractice
         
@@ -23,11 +23,11 @@
  
         mkdir Directory3 dir5
     
-4. *kudos*  your 4 directoris  were created successefully.  if you want to check and **prit out** just type ;
+4. *kudos*  your 4 directoris  were created successefully.  if you want to check and **print out** just type ;
 
         ls 
         
-5. Oups! it looks messy while it is not well organized. Just let us change some names ; 
+5. Oups! it looks messy and not well organized. Just let us change some names ; 
 
         mv dir1 Dir2	
         
