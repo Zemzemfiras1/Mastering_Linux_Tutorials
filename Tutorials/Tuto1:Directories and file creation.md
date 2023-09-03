@@ -53,7 +53,7 @@
  
         nano file2.txt 
         
-  - one you press enter, You'll be in nano's window where you can write or juste paste those lines; 
+  - one you press enter, You'll be in nano's window where you can write or just paste those lines; 
   
         Without continual growth and progress, such words as improvement, achievement, and success have no meaning.
         
