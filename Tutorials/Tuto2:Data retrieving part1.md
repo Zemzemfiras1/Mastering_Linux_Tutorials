@@ -5,7 +5,7 @@
 
 1. We want to move the directory Dir4 located in letsPractice into Dir1 as a subdirectory. 
    For this step we will use the same command move " mv " used previously in names changing. 
-   * if your current workig directory was letspractice you can simply type: 
+   * if your current working directory was letspractice you can simply type: 
         
 ```markdown
 mv Dir4 Dir1/ 
@@ -23,6 +23,7 @@ mv ~/letsPractive/Dir4 .
 mv ../Dir4 .     
 ```
   => The . refers to your current working directory.
+  
   =>    .. refers to parent directory.
   
 2. Rename Dir4 to tuto2. **Hint:** Use mv command.
@@ -120,7 +121,7 @@ grep -n "success" Path_to_success.txt | wc
 grep "success" Path_to_success.txt | wc
 ```
 
-* <p> The symbol " | " is called piping , it means we piped the output of the first command to the input of the second comand.</p>
+* <p> The symbol " | " is called piping , it means we piped the output of the first command to the input of the second command.</p>
 * <p> Unfortunately it does not work as we want for the reason each paragraph is considered as a line. </p>
 
 <details>
@@ -147,16 +148,4 @@ grep -n -o "success" Path_to_success.txt |wc
 </details>
 </details>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
