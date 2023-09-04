@@ -1,4 +1,4 @@
-##  
+##  Pracatical for sed command
 
  * For this tutorial we will manupilate file by sed commands.
 
@@ -91,8 +91,49 @@ sed -n '1,4p;7,9p;24p' Laptops.txt
 cat -n Laptops.txt 
 ```
 
-6. 
+6. We want to printout some lines with a condition ; first let us choose arbitrary any line, for example line number 13, for this line I'll print out how many character there in : 
 
+```markdown
+sed -n '13p' Laptops.txt | wc -m 
+```
+
+Now based on this condition we will print lines which equal to, shorter and longer than line n°13:
+
+* line shorter than line n°13 : 
+
+```markdown
+sed -n '/^.\{0,49\}$/p' Laptops.txt
+```
+ 
+* line equal to line n°13 : 
+
+```markdown
+sed -n '/^.\{50\}$/p' Laptops.txt
+```
+
+* line longer line n°13 : 
+
+```markdown
+sed -n '/^.\{51,\}$/p' Laptops.txt
+```
+
+* /^.\{51,\}/: Regular expression pattern we're matching :
+* ^: Anchors the pattern to the beginning of the line.
+* .: Matches any character.
+* \{51,\}: Matches 51 or more occurrences of the preceding character.
+* $: Anchors the pattern to the end of the line.
+
+7. let print out odd number lines 
+
+```markdown
+sed -n 'p;n’  
+```
+
+8. let print out odd number lines 
+
+```markdown
+sed -n ‘n;p’ – print out even number lines
+```
 
 
 
