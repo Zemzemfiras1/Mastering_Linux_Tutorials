@@ -132,7 +132,7 @@ sed -n 'p;n’
 8. let print out odd number lines 
 
 ```markdown
-sed -n ‘n;p’ – print out even number lines
+sed -n ‘n;p’ 
 ```
 
 
