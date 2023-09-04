@@ -40,7 +40,7 @@ sed -e 's/sad/happy/' -e'/Thomas/d' Path_to_success.txt
 * Please download the required file into Dir2 whether using wget command or manually from github.
 ---------------------------------------------------------------------------------------------------------------------------------
 
-1. First let check what our file looks and how many lines there in? 
+1. First let check what our file looks like and how many lines there in? 
 <details>
 <summary>Answers</summary>
 
@@ -65,7 +65,12 @@ tail Laptops.txt
 ```
 <details>
 <summary> RQ </summary>
-<p>- Notice there is no difference between the two outputs, means the first command printed out all the file. 
+<p>- Notice there is no difference between the two outputs, means the first command printed out all the file.
+You could also use this specified command to print all the file : </p>
+
+```markdown
+sed -n 'p' Laptops.txt 
+```
 </details>
 
 3. Add "-n" to sed command then rexecute it; 
@@ -80,7 +85,7 @@ sed -n '1,5p' Laptops.txt
 sed -n '1,4p;7,9p;24p' Laptops.txt 
 ```
 
-5. Verify your output by comparing to this which prints number lines. 
+5. Verify your output by comparing to this command which prints number lines. 
 
 ```markdown
 cat -n Laptops.txt 
