@@ -32,5 +32,80 @@ sed -n '1,3p' Path_to_success.txt
 sed -e 's/sad/happy/' -e'/Thomas/d' Path_to_success.txt 
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------
+#### Printing out practices
+
+
+* In this tutorial we will be working on a csv file named Laptops.txt 
+* Please download the required file into Dir2 whether using wget command or manually from github.
+---------------------------------------------------------------------------------------------------------------------------------
+
+1. First let check what our file looks and how many lines there in? 
+<details>
+<summary>Answers</summary>
+
+```markdown
+cat Laptops.txt
+```
+```markdown
+wc -l Laptops.txt
+```
+</details>
+
+2. Try this command and figure out what it does mean : 
+
+```markdown
+sed '1,5p' Laptops.txt
+```
+
+- then print the last lines : use tail command: 
+
+```markdown
+tail Laptops.txt
+```
+<details>
+<summary> RQ </summary>
+<p>- Notice there is no difference between the two outputs, means the first command printed out all the file. 
+</details>
+
+3. Add "-n" to sed command then rexecute it; 
+
+```markdown
+sed -n '1,5p' Laptops.txt
+```
+
+4. Let print lines 1 to 4 , 7 to 9 and 24 : 
+
+```markdown
+sed -n '1,4p;7,9p;24p' Laptops.txt 
+```
+
+5. Verify your output by comparing to this which prints number lines. 
+
+```markdown
+cat -n Laptops.txt 
+```
+
+6. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
