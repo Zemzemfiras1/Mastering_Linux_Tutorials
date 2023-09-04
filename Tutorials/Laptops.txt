@@ -1,0 +1,24 @@
+laptop, built year, processor, price($)
+MacBook Air, 2021, Apple M1, 999
+HP Spectre x360, 2023, AMD Ryzen 7 5800U, 1299
+Lenovo ThinkPad X1 Carbon, 2022, Intel Core i5-1135G7, 1299
+Asus ROG Zephyrus G14, 2021, AMD Ryzen 9 5900HS, 1799
+ASUS ZenBook Pro, 2022, Intel Core i9, 1999
+ASUS ROG Zephyrus, 2021, AMD Ryzen 9, 2499
+ASUS VivoBook, 2023, Intel Core i5, 799
+Acer Swift 5, 2023, Intel Core i7-12700U, 1199
+Acer Aspire 5, 2021, Intel Core i5-1135G7, 699.99
+Acer Predator Helios 300, 2020, Intel Core i7-10750H, 1199.99
+Acer Swift 3, 2022, AMD Ryzen 7 5800U, 799.99
+Acer Chromebook 14, 2019, Intel Celeron N3160, 249.99
+Acer Nitro 5, 2021, AMD Ryzen 5 5600H, 899.99
+Microsoft Surface Laptop 4, 2021, Intel Core i7-1185G7, 1399
+HP Envy x360, 2022, AMD Ryzen 5 5600U, 1099
+Lenovo Legion 7, 2023, AMD Ryzen 9 6900HX, 2099
+Dell Inspiron 14, 2022, Intel Core i3-1115G4, 599
+Dell XPS 13, 2023, Intel Core i7, 1299.99
+Dell Inspiron 15, 2022, Intel Core i5, 799.99
+Dell Latitude 14, 2021, Intel Core i9, 1699.99
+Dell Precision 17, 2023, Intel Xeon, 2399.99
+Dell Vostro 13, 2022, Intel Core i3, 599.99
+Dell XPS 13, 2022, Intel Core i7-1185G7, 1499
