@@ -5,9 +5,9 @@
  * Sed is one of the most used rapid and powerfull unix commands. It stands for "stram eaditor". while it is like grep command, can fetch into files and search for spécified patterns "matching", it can also perform substitution, insertion and deletion functions. Its syntax : 
 
 sed OPTIONS.. [scripts] [Inputfile]
-
+---------------------------------------------------------------------------------------------------------------------------------
 #### +++ Introduction : Command's examples : 
-
+---------------------------------------------------------------------------------------------------------------------------------
 ```markdown
 sed 's/sad/happy/' myInputfile.txt
 ```
@@ -33,7 +33,7 @@ sed -e 's/sad/happy/' -e'/Thomas/d' Path_to_success.txt
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------
-#### Printing out practices
+#### +++ Printing out practices
 
 
 * In this tutorial we will be working on a csv file named Laptops.txt 
@@ -134,9 +134,54 @@ sed -n 'p;n’
 ```markdown
 sed -n ‘n;p’ 
 ```
+---------------------------------------------------------------------------------------------------------------------------------
+#### +++ Substitution : 
+---------------------------------------------------------------------------------------------------------------------------------
 
+9. Let substitute "ASUS" by "asus" in Laptops.txt file : 
 
+```markdown
+sed 's/ASUS/asus/' Laptops.txt 
+```
 
+* Did all the pattern have changed ? (Hint : pipe the previous command to cat command with option -n, look at line 6) 
+
+```markdown
+sed 's/ASUS/asus/' Laptops.txt | cat -n 
+```
+
+<details>
+<summary> Answers </summary>
+<p> * Not all patterns change as a result of a substitution because the `sed` command only replaces the first matching occurrence. To replace all the matches to the pattern regardless of the number of times it appears, use the global flag "g": </p>
+
+```markdown
+sed 's/ASUS/asus/g' Laptops.txt | cat -n 
+```
+
+<p> * Please check line 6 agian </p>
+</details>
+ 
+10. Notice that changing "ASUS" to "asus" was done by simply typing the word in lowercase. There are other ways to achieve the same result, such as using a lowercase conversion function or method. 
+
+```markdown
+sed 's/ASUS/\L&/g' Laptops.txt 
+```
+
+11. Try to change the word "year" to uppercase : 
+
+<summary> Answers </summary>
+
+```markdown
+sed 's/year/\U&/g' Laptops.txt 
+```
+
+</details>
+ 
+12. let change the comma separated value to a tab separated value then save it to a new file : 
+
+```markdown
+sed 's/,/\t/' Laptops.txt > lap.tsv
+```
 
 
 
