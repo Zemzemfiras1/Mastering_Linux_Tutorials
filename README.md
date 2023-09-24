@@ -7,7 +7,7 @@
   
     * [Tuto1: Directories and file creation](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto1%3ADirectories%20and%20file%20creation.md)
     * [Tuto2: Data retrieving](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto2%3AData%20retrieving%20part1.md)
-    * [Tuto3: File Manipulation_Sed_command]()
+    * [Tuto3:Sed command]()
     
   - Hint : the more you practive the more cleverness you got.
     
