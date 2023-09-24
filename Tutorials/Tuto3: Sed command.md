@@ -168,7 +168,7 @@ sed 's/ASUS/\L&/g' Laptops.txt
 ```
 
 11. Try to change the word "year" to uppercase : 
-
+</details>
 <summary> Answers </summary>
 
 ```markdown
@@ -182,21 +182,5 @@ sed 's/year/\U&/g' Laptops.txt
 ```markdown
 sed 's/,/\t/' Laptops.txt > lap.tsv
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
