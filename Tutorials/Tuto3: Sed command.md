@@ -168,13 +168,12 @@ sed 's/ASUS/\L&/g' Laptops.txt
 ```
 
 11. Try to change the word "year" to uppercase : 
-</details>
+<details>
 <summary> Answers </summary>
 
 ```markdown
 sed 's/year/\U&/g' Laptops.txt 
 ```
-
 </details>
  
 12. let change the comma separated value to a tab separated value then save it to a new file : 
