@@ -47,13 +47,13 @@
  
         open my_1st_file 
         
- **here** you just created your first file then you opened it via a text editor. Linux give you many choises in text editing, other than creating a file then write in it, simply you can create and read and write directly *via yout terminal*. 
+ **here** you just created your first file then you opened it via a text editor. Linux give you many choises in text editing, other than creating a file then write in it, simply you can create and read and write directly *via your terminal*. 
  
  8. One of the most popular text editors like Vim and gedit is *nano*; 
  
         nano file2.txt 
         
-  - one you press enter, You'll be in nano's window where you can write or just paste those lines; 
+  - When you press enter, You'll be in nano's window where you can write or just paste those lines; 
   
         Without continual growth and progress, such words as improvement, achievement, and success have no meaning.
         
