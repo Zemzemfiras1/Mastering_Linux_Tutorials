@@ -3,7 +3,7 @@ MacBook Air,2021,Apple M1,999
 HP Spectre x360,2023,AMD Ryzen 7 5800U,1299
 Lenovo ThinkPad X1 Carbon,2022,Intel Core i5-1135G7,1299
 Asus ROG Zephyrus G14,2021, AMD Ryzen 9 5900HS,1799
-ASUS ZenBook Pro,2022,Intel Core i9,1999
+ASUS ZenBook ASUS Pro,2022,Intel Core i9,1999
 ASUS ROG Zephyrus,2021,AMD Ryzen 9,2499
 ASUS VivoBook,2023,Intel Core i5,799
 Acer Swift 5,2023,Intel Core i7-12700U,1199
