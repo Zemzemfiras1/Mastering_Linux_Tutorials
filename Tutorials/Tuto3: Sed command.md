@@ -129,7 +129,7 @@ sed -n '/^.\{51,\}$/p' Laptops.txt
 sed -n 'p;n’  
 ```
 
-8. let print out odd number lines 
+8. let print out even number lines 
 
 ```markdown
 sed -n ‘n;p’ 
