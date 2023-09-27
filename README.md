@@ -9,5 +9,7 @@
     * [Tuto2: Data retrieving](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto2%3AData%20retrieving%20.md)
     * [Tuto3:Sed command](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto3%3A%20Sed%20command.md)
     * [Tuto4:awk command](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto4%3A%20Awk%20command.md)
-  - Hint : the more you practive the more cleverness you got.
-    
+
+######  Remember that learning Linux is a gradual process, and practice is key to mastering it. Don't hesitate to experiment and explore the system to deepen your understanding and note that the more you practive the more cleverness you got.
+
+####### Happy Linux learning!
