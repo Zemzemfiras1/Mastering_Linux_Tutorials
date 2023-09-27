@@ -12,4 +12,4 @@
 
 ######  Remember that learning Linux is a gradual process, and practice is key to mastering it. Don't hesitate to experiment and explore the system to deepen your understanding and note that the more you practive the more cleverness you got.
 
-####### Happy Linux learning!
+###### Happy Linux learning!
