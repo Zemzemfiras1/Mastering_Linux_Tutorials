@@ -10,7 +10,7 @@
 1. Download the gff file exmaple from this link above in your working directory Dir3. 
    - Check your path, use pwd command.
    - Hint : use wget command to download the file.
-   - link : 
+   - link : https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/GFFfile
 
 2. To print the content of your file please type this command;
 
