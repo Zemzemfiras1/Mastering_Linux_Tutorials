@@ -127,18 +127,101 @@ awk '$2=="CDS" && $3>5000 {print}' mGFFfile
 awk -F'\t' '{print $2}' mGFFfile | uniq
 ```
 
+16. Assuming that you wanted to print lines longer than a certain length (exp : print out words longer than 4 in the second field);
 
+```markdown
+ awk 'length($2) > 4' mGFFfile 
+```
 
+17. Repeat Q16, try to select only words with length equal to 4; 
+<details>
+<summary> Answer: </summary>
 
+```markdown
+awk 'length($2)== 4' mGFFfile 
+```
 
+</details>
 
+18. Try Print a specific line (Hint: Use NR to print the 10th line);
 
+```markdown
+awk 'NR==10' mGFFfile
+```
 
+20. Calculate and print the average of values in the third column; 
 
+```markdown
+awk '{sum += $3} END {print "Average:", sum/NR}' mGFFfile 
+```
 
+21. Calculate the diference between column 4 and 3 ; 
 
+```markdown
+awk '{diff = $4 - $3; print diff}' mGFFfile
+```
 
+22. Perform the command in Q21 to calculate the sum of the differences between column 4 and column 3 for all lines in the file and print the result at the end, you can modify the Awk command as follows; 
 
+```markdwon
+ awk ' {diff = $4 - $3; sum += diff} END {print "Sum of difference: ", sum}' mGFFfile 
+```
+
+- You may also define initial variables as bellow ( add BEGIN{variable1;variable2;...;VariableN}; 
+
+```markdwon
+awk 'BEGIN{sum=0;diff=0} {diff = $4 - $3; sum += diff} END {print "Sum:", sum}' mGFFfile 
+```
+23. Furthemore, Awk command offer you the ability to change and append specific field or patterns, so Let us; 
+  * change the non-existing field 7 from "." to "human" and append the substitution to lines which do not have this field :  
+
+```markdown 
+awk '{$7 = "Human"} 1' mGFFfile 
+```
+
+ * Only change existing field; 
+
+```markdown 
+awk '{$2 = "HumaN"} 1' GFFfile
+```
+
+ * Substitute "." by  "Human" in column 11) in GFFfile; 
+
+```markdown 
+awk '{gsub(".", "Human", $11)} 1 ' GFFfile 
+```
+
+<details>
+<summary> Note : </summary>
+<p>
+   => Note1 : that gsub is a built-in function in Awk that stands for "global substitution." It is used to search for a pattern within each line of input text and replace all occurrences of that pattern with a specified replacement text: 
+       * "." : Is the :regexp: regular expression pattern you want to search for within the target string.
+       * "Human" : IS the :replacement: the text that you want to replace the matched pattern with.
+       * $1 : IS the :target: the variable or field where you want to perform the substitution. 
+       * 1 :IS a common Awk idiom that means to print the modified line.
+   
+   => Note2 : Nothing here to be changer as the reason there is no field 11 to change. 
+</p>
+</details>
+
+ * Repeat the previous step with a target field equal to 2 ; what do you notice ? 
+
+```markdown 
+awk '{gsub(".", "Human", $2)} 1 ' GFFfile 
+```
+
+ * Try to substitute "CDS" with "test" only in the second field in GFFfile; Do not forget to use OFS. 
+
+<details>
+<summary> Answer : </summary>
+
+```markdown 
+awk 'BEGIN{OFS="\t"} {gsub("CDS", "test", $2)} 1' mGFFfile 
+```
+
+</details>
+
+###### Congratulations! You've covered almost the fundamentals basics  of Awk commands. Get ready for more advanced topics in the upcoming tutorials.
 
 
 
