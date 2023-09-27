@@ -223,5 +223,3 @@ awk 'BEGIN{OFS="\t"} {gsub("CDS", "test", $2)} 1' mGFFfile
 
 ###### Congratulations! You've covered almost the fundamentals basics  of Awk commands. Get ready for more advanced topics in the upcoming tutorials.
 
-
-
