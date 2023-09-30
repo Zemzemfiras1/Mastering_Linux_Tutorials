@@ -125,22 +125,60 @@ chmod 327 my_first_script.sh
 
 </details>
  
+- **Step** 7: Run your script;
+There many method to run you script, 
+- First method :
 
+```markdown 
+bash my_first_script.sh
+```
 
+- The second method is : 
 
+```markdown 
+./my_first_script.sh 
+```
 
+- Third method : 
 
+```markdown 
+source my_first_script.sh 
+```
 
+- **Step** 8:  Run your script elsewhere other than your original directory;
+  - Temporary:
+* First check your current working directory path.
 
+```markdown 
+pwd 
+```
 
+* Add the directoty to the PATH temporarily (only for the current session), you can use the following command:
 
+```markdown 
+export PATH=$PATH:/your/directory/path
+```
+* Now you may simply type your name script then it will be executed:
 
+```markdown
+my_first_script
+```
 
+  - Permanently
+* If you want to make the change permanent, you need to add the export command to one of your shell's configuration files:
 
+```markdown 
+echo 'export PATH=$PATH:/your/directory/path' >> ~/.bashrc
+```
 
+* Then 
+```markdown 
+source ~/.bashrc
+```
 
+* Now you can notice that th command " export PATH=$PATH:/your/directory/path " was appended to the last line in .barshrc file then it may be executed anywere.
 
-
+* Try to change your directory or exit from the terminal then open it, then execute your script it should run properly.
 
 
 
