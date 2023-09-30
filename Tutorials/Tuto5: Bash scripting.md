@@ -180,5 +180,3 @@ source ~/.bashrc
 
 * Try to change your directory or exit from the terminal then open it, then execute your script it should run properly.
 
-
-
