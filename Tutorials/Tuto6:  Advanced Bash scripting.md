@@ -6,13 +6,13 @@
 ---------------------------------------------------------------------------------------------------------------------------------
  * To reuse code written in your script, function will offer you a perfect organisation. 
  * Function are organaised as bellow : 
----
+
 function_name() {
     - Function body
     - Commands and statements go here
     - You can use parameters passed to the function as $1, $2, etc.
 }
----
+
 
 ###### Exercice1 : Write a  Bash script that print human-readable and long listing format files. ( Hint: use man ls ). 
 #!/bin/bash
