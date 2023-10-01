@@ -8,9 +8,9 @@
  * Function are organaised as bellow : 
 ---
 function_name() {
-    # Function body
-    # Commands and statements go here
-    # You can use parameters passed to the function as $1, $2, etc.
+    - Function body
+    - Commands and statements go here
+    - You can use parameters passed to the function as $1, $2, etc.
 }
 ---
 
