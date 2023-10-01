@@ -111,6 +111,9 @@ read -a numbers
 echo "You entered: ${numbers[@]}"
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------
+#### +++ Conditions in bash scripting 
+---------------------------------------------------------------------------------------------------------------------------------
 ###### Exercise 6: Create a bash script which demand a number as input then detect its sign. 
 
 ```markdown
@@ -150,7 +153,6 @@ fi
 ###### Exercise 7: Create a bash script which compare two numbers. 
 1. create your script file: 
 
-
 ```markown 
 nano script7.sh
 ```
@@ -185,11 +187,69 @@ fi
 ```
 
 
+---------------------------------------------------------------------------------------------------------------------------------
+#### +++ While loop
+---------------------------------------------------------------------------------------------------------------------------------
+###### Exercise 8: Create a bash script which countdown from a specified number to 1 
+1. create your script file: 
 
+```markown 
+nano script8.sh
+```
 
+2. copy this script then save and run it. 
 
+```markown 
+#!/bin/bash
 
+# Prompt the user for a positive integer
+read -p "Enter a positive integer: " num
 
+# Check if the input is a valid positive integer
+if ! [[ "$num" =~ ^[1-9][0-9]*$ ]]; then
+    echo "Error: Please enter a valid positive integer."
+    exit 1
+fi
+
+echo "Counting down from $num to 1:"
+while [ "$num" -gt 0 ]; do
+    echo "$num"
+    num=$((num - 1))
+done
+
+echo "Countdown complete!"
+```
+
+---------------------------------------------------------------------------------------------------------------------------------
+#### +++ For loop
+---------------------------------------------------------------------------------------------------------------------------------
+###### Exercise 9: Create a bash script which count from 1 to a specified number.
+
+```markown 
+nano script9.sh
+```
+
+2. copy this script then save and run it. 
+
+```markown 
+#!/bin/bash
+
+# Prompt the user for a positive integer
+read -p "Enter a positive integer: " num
+
+# Check if the input is a valid positive integer
+if ! [[ "$num" =~ ^[1-9][0-9]*$ ]]; then
+    echo "Error: Please enter a valid positive integer."
+    exit 1
+fi
+
+echo "Counting from 1 to $num:"
+for ((i = 1; i <= num; i++)); do
+    echo "$i"
+done
+
+echo "Counting complete!"
+```
 
 
 
