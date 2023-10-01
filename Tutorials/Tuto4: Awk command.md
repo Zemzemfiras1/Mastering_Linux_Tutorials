@@ -11,7 +11,7 @@
    - Check your path, use pwd command.
    - Hint : use wget command to download the file.
    - link : https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/GFFfile
-     [source](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md)
+    :: [source](https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md)
 2. To print the content of your file please type this command;
 
 ```markdown
