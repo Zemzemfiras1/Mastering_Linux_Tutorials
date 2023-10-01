@@ -11,6 +11,8 @@
 ---------------------------------------------------------------------------------------------------------------------------------
 It is crucial to know tha a bash script involves creating a text file containing a series of Bash commands and instructions. So here's a step-by-step guide on how to write a basic Bash script:
  
+* First create a Directory called script under letsPractice; (pwd : ~/letsPractice/scripts).
+
 - **Step** 1: Open a Text Editor;
   * Start by opening a text editor of your choice. You can use command-line editors like nano or graphical editors like Visual Studio Code, Sublime Text, or Notepad++ any text editor of your choice. 
   * For this example, let's assume you're using a simple command-line editor like nano.
