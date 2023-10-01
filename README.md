@@ -10,6 +10,7 @@
     * [Tuto3: Sed command](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto3%3A%20Sed%20command.md)
     * [Tuto4: awk command](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto4%3A%20Awk%20command.md)
     * [Tuto5: Bash scripting](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto5%3A%20Bash%20scripting.md)
+    * [Tuto6: Advanced Bash scripting](https://github.com/Zemzemfiras1/Mastering_Linux_Tutorials/blob/master/Tutorials/Tuto6%3A%20%20Advanced%20Bash%20scripting.md)
 ######  Remember that learning Linux is a gradual process, and practice is key to mastering it. Don't hesitate to experiment and explore the system to deepen your understanding and note that the more you practive the more cleverness you got.
 
 ###### Happy Linux learning!
