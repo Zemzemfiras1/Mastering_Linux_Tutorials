@@ -15,7 +15,7 @@ function_name() {
 }
 ```
 
-###### Exercice 1 : Write a  Bash script that print human-readable and long listing format files. ( Hint: use man ls ). 
+###### Exercise 1 : Write a  Bash script that print human-readable and long listing format files. ( Hint: use man ls ). 
 #!/bin/bash
 1. create your script file: 
 
@@ -37,7 +37,7 @@ my_function
 
 3. Make your script executable Than run it. 
 
-###### Exercice 2: Write a  Bash script that print human-readable and long listing format files. ( Hint: use man ls ). 
+###### Exercise 2: Write a  Bash script that print human-readable and long listing format files. ( Hint: use man ls ). 
 1. create your script file: 
 
 ```markdwon 
@@ -63,7 +63,7 @@ my_ls
 ---------------------------------------------------------------------------------------------------------------------------------
 #### +++ How to create an interactive input
 ---------------------------------------------------------------------------------------------------------------------------------
-###### Exercice 3: Create a bash script which demand the name of the user.
+###### Exercise 3: Create a bash script which demand the name of the user.
 
 * Here we will use "read" command which is used to read input from the user or from a file. It is often used in shell scripts to assign values to variables, read user input interactively, or process lines from files. 
 
@@ -84,7 +84,7 @@ echo "Hello, $name!"
 ```
 
 * In this example, the read command waits for the user to enter their name, and the entered value is stored in the name variable for later use.
-###### Exercice 4: Add age variable to read command. 
+###### Exercise 4: Add age variable to read command. 
 3. change your script to be as bellow : 
 
 ```markdown 
@@ -95,7 +95,7 @@ read name age
 echo "Hello, $name! You are $age years old."
 ```
 
-###### Exercice 5:  Enter a list of number. 
+###### Exercise 5:  Enter a list of number. 
 * The -a option allows you to read input into an array. 
 * The user can enter numbers separated by spaces, and they will be stored in the numbers array.
 
@@ -111,7 +111,7 @@ read -a numbers
 echo "You entered: ${numbers[@]}"
 ```
 
-###### Exercice 6: Create a bash script which demand a number as input then detect its sign. 
+###### Exercise 6: Create a bash script which demand a number as input then detect its sign. 
 
 ```markdown
 nano script6.sh
@@ -147,7 +147,7 @@ fi
 <p>- Greater than or equal to (-ge): Check if the first number is greater than or equal to the second number.</p>
 </details>
 
-###### Exercice 7: Create a bash script which compare two numbers. 
+###### Exercise 7: Create a bash script which compare two numbers. 
 1. create your script file: 
 
 
