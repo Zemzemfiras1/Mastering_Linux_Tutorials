@@ -256,7 +256,7 @@ echo "Counting complete!"
 ---------------------------------------------------------------------------------------------------------------------------------
 - [What is a bash script?](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php)
 - [Bash scripting tutorials](https://linuxconfig.org/bash-scripting-tutorial-for-beginners)
-- [30 Bash Script Examples]()https://linuxhint.com/30_bash_script_examples/)
+- [30 Bash Script Examples](https://linuxhint.com/30_bash_script_examples/)
 
 
 
